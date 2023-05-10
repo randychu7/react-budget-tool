@@ -1,6 +1,7 @@
 import Expenses from "../src/components/Expenses/Expenses";
 import Card from '../src/components/UI/Card';
 import React from 'react';
+import NewExpense from "./components/NewExpense/NewExpense";
 function App() {
   const expenses = [
     {
@@ -24,21 +25,20 @@ function App() {
     date:new Date(2023,5,1)
   }
   ]
-return React.createElement(
-  'div',
-  {}, 
-  React.createElement('h2', {}, 'Lets get Started')),
-  React.createElement(Expenses, {items: expenses});
+// return React.createElement(
+//   'div',
+//   {}, 
+//   React.createElement('h2', {}, 'Lets get Started')),
+//   React.createElement(Expenses, {items: expenses});
 
 
-  // return (
-  //   <div>
-  //     <h2>Let's get started!</h2>
-
-  //     <Expenses items = {expenses}></Expenses>
+  return (
+    <div>
+      <NewExpense/>
+      <Expenses items = {expenses}></Expenses>
     
-  //   </div>
-  // );
+    </div>
+  );
 
 }
 
