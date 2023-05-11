@@ -5,21 +5,22 @@ import NewExpense from "./components/NewExpense/NewExpense";
 function App() {
   const expenses = [
     {
+    id:1,
     title: 'Car Insurance', 
     amount:'267.34', 
     date:new Date(2023,5,8)
   },
-  {
+  {id:2,
     title: 'Car Payment', 
     amount:'600.34', 
     date:new Date(2023,5,8)
   },
-  {
+  { id:3,
     title: 'Rent', 
     amount:'1600.34', 
     date:new Date(2023,5,1)
   },
-  {
+  { id:4,
     title: 'Hulu', 
     amount:'5.99', 
     date:new Date(2023,5,1)
