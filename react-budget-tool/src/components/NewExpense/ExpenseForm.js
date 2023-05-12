@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import './NewExpenseForm.css'
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
     const [enteredTitle, setEnteredTitle] = useState('');
     const [enteredAmount, setEnteredAmount] = useState('');
     const [enteredDate, setEnteredDate] = useState('')
@@ -50,6 +50,8 @@ const ExpenseForm = () => {
         };
 
         console.log(expenseData)
+        //Call the function from the New Expense js file, use the expenseData to put into the function
+        props.onSaveExpenseData(expenseData);
         //Clear the data for each section ONCE submitted;
         setEnteredTitle('');
         setEnteredAmount('');
@@ -57,7 +59,7 @@ const ExpenseForm = () => {
 
     }
 
-    
+
 
     return (
         <form onSubmit ={submitHandler}>

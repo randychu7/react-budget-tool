@@ -3,7 +3,7 @@ import './NewExpense.css';
 import './ExpenseForm';
 import ExpenseForm from './ExpenseForm';
 
-const NewExpense = () => {
+const NewExpense = (props) => {
 
     //This function copies the data that is inputted in the form
     const SaveExpenseDataHandler = (enteredExpenseData) =>{
@@ -11,8 +11,9 @@ const NewExpense = () => {
             ...enteredExpenseData,
             id: Math.random().toString()
         };
-        console.log(expenseData)
-    }
+        props.onAddExpense(expenseData);
+    };
+    
 return (
     <div className='new-expense'>
         <ExpenseForm onSaveExpenseData = {SaveExpenseDataHandler}/>
