@@ -15,6 +15,7 @@ const ExpensesFilter = (props) => {
     }
     
 
+    
   return (
     <div className='expenses-filter'>
       <div className='expenses-filter__control'>
