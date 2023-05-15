@@ -3,6 +3,7 @@ import '../Expenses/Expenses.css'
 import Card from '../UI/Card'
 import ExpensesFilter from "../Filter/Filter";
 import ExpensesList from './ExpensesList';
+import ExpensesChart from './ExpensesChart'
 
 function Expenses(props){
 
@@ -16,7 +17,8 @@ function Expenses(props){
     
     //Filter Method
     const filteredExpenses = props.items.filter(expense =>{
-      return expense.date.getFullYear().toString() === filteredYear;
+      const date = new Date(expense.date);
+      return date.getFullYear().toString() === filteredYear;
     });
 
     let expenseContent = <p>No expenses found</p>
@@ -30,6 +32,7 @@ function Expenses(props){
     <ExpensesFilter 
     selected = {filteredYear} 
     onFilterChange = {FilterChangeHandler} />
+    <ExpensesChart expenses = {filteredExpenses}/>
     <ExpensesList items = {filteredExpenses}/> 
      
 

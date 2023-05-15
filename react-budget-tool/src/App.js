@@ -53,10 +53,10 @@ const App = () => {
 //   React.createElement(Expenses, {items: expenses});
 
 const addExpenseHandler = (expense) => {
-setExpenses(prevExpenses => {
-  return [expense, ...prevExpenses];
-});
-}
+  setExpenses(prevExpenses => {
+    return [expense, ...prevExpenses];
+  });
+};
 
   return (
     <div>
