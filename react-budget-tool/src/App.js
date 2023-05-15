@@ -34,7 +34,7 @@ const DummyExpenses = [
     id:5,
     title: 'Gym Membership', 
     amount: 305.99, 
-    date: new Date(2022, 4, 1)
+    date: new Date(2021, 4, 1)
   }
 ]
 
@@ -62,7 +62,6 @@ setExpenses(prevExpenses => {
     <div>
       <NewExpense onAddExpense = {addExpenseHandler}/>
       <Expenses items = {expenses}></Expenses>
-    
     </div>
   );
 
