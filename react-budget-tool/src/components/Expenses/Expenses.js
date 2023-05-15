@@ -5,6 +5,7 @@ import Card from '../UI/Card'
 import ExpensesFilter from "../Filter/Filter";
 
 function Expenses(props){
+
  const [filteredYear, setFilteredYear] = useState('2020');
  
       //This function copies the data that is inputted in the form
@@ -13,20 +14,27 @@ function Expenses(props){
         // props.filterSelect(filteredYear);
     };
     
-
-    // {props.items.map(expense => <Expense/>)} turns the object to an JSX element
+    //Filter Method
+    const filteredExpenses = props.items.filter(expense =>{
+      return expense.date.getFullYear().toString() === filteredYear;
+    });
+    // {props.items.map(expense => <Expense/>)} turns the object to an JSX element maps every expense into 
  return(
   <div>
+
     <Card className="expenses">
     <ExpensesFilter 
     selected = {filteredYear} 
     onFilterChange = {FilterChangeHandler} />
      
-     {props.items.map((expense => {
+     {filteredExpenses.length === 0}
+     {filteredExpenses.map((expense) => (
      <ExpenseItem 
+     key={expense.id}
      title = {expense.title} 
      amount={expense.amount} 
-     date={expense.date}/>}))}
+     date={expense.date}/>))}
+
      
      
      
