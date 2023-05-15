@@ -4,21 +4,24 @@
 
 
 
-I created a budget tool with only using react, i am currently in the process of learning react and decided to create a simple budget that helps users track thier budgets throughout the years. <p>&nbsp;</p>
+I am currently in the process of learning React and decided to create a simple budget tracking application. The purpose of this application is to help users manage their finances by tracking their expenses throughout the years.
 
+The application includes several key features:
 
 <h1 align="center">Features</h1>
 
 ## Filter
-* Users are able to filter throughout the years and see what they have spent on certain months in the year that they selected. <p>&nbsp;</p>
+* One of the main features of the application is the ability for users to filter their expenses based on the selected year. Users can choose a specific year and view the expenses they incurred during each month of that year. This allows them to easily analyze their spending patterns and identify areas where they may need to make adjustments. <p>&nbsp;</p>
 
 
 ## Form input
-* Users are allowed to create a expense in the form with then populates dynamically through Javascript. <p>&nbsp;</p>
+* Another important feature is the expense form input. Users can create new expenses by entering the title, amount, and date of the expense in the form. Once the form is submitted, the expense is dynamically added to the list of expenses in real-time using JavaScript. This provides a seamless and user-friendly experience for entering and managing expenses. <p>&nbsp;</p>
 
 
 ## Chart
-* A chart that displays the amount of money that was spent throughout the selected year.<p>&nbsp;</p>
+* The application also includes a chart that visualizes the total amount of money spent throughout the selected year. The chart provides a clear overview of the user's spending habits, allowing them to quickly identify months or periods where their expenses were higher or lower. This visualization can be helpful for tracking overall budget trends and making informed financial decisions.<p>&nbsp;</p>
+
+Overall, this budget tracking application combines the power of React, dynamic form input, and data visualization to provide users with a convenient and insightful tool for managing their budgets effectively. It helps users gain a better understanding of their expenses, make informed financial decisions, and ultimately achieve their financial goals.
 
 
 
