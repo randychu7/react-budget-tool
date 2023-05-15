@@ -25,13 +25,7 @@ I created a budget tool with only using react, i am currently in the process of 
 ## Built With
 
 Here are Languages
-
-![JQuery][Java]
-[![React][React.js]][React-url]
-![js]
-[![JQuery][JQuery.com]][JQuery-url]
-![Mysql]
-[![Tailwind]][Next-url]
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
