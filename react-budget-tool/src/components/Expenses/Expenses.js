@@ -21,6 +21,7 @@ function Expenses(props){
     // {props.items.map(expense => <Expense/>)} turns the object to an JSX element maps every expense into 
  return(
   <div>
+    
 
     <Card className="expenses">
     <ExpensesFilter 
