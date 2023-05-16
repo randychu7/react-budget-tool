@@ -2,7 +2,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![alt text](React-Budget.gif)
+![Alt Text](React-Budget.gif)
+
 
 
 I am currently in the process of learning React and decided to create a simple budget tracking application. The purpose of this application is to help users manage their finances by tracking their expenses throughout the years.
