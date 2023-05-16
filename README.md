@@ -8,6 +8,7 @@ I am currently in the process of learning React and decided to create a simple b
 
 
 <h1 align="center">Features</h1>
+
 ## Form input
 * Another important feature is the expense form input. Users can create new expenses by entering the title, amount, and date of the expense in the form. Once the form is submitted, the expense is dynamically added to the list of expenses in real-time using JavaScript. This provides a seamless and user-friendly experience for entering and managing expenses. 
 
