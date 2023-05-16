@@ -6,7 +6,6 @@
 
 I am currently in the process of learning React and decided to create a simple budget tracking application. The purpose of this application is to help users manage their finances by tracking their expenses throughout the years.
 
-The application includes several key features:
 
 <h1 align="center">Features</h1>
 
