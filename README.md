@@ -2,7 +2,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Alt Text](react-tool.mov)
+![Alt Text](budget-tool.gif)
 
 
 
