@@ -2,7 +2,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Alt Text](React-Budget.gif)
+![Alt Text](ezgif.com-video-to-gif (1).mov)
 
 
 
